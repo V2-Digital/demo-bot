@@ -1,0 +1,1 @@
+curl --request POST --url https://api.telegram.org/bot<TOKEN>/setWebhook --header 'content-type: application/json' --data '{"url": "<URL>"}'

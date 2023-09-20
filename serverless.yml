@@ -5,9 +5,18 @@ provider:
   name: aws
   runtime: nodejs18.x
 
+  region: us-west-2
+  environment:
+    TELEGRAM_TOKEN: FROM_BOT_FATHER
+
 functions:
   hello:
     handler: handler.hello
+    events:
+      - http:
+          path: /hello
+          method: post
+
 
 plugins:
   - serverless-esbuild

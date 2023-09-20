@@ -29,7 +29,7 @@ $ serverless deploy
 After running deploy, you should see output similar to:
 
 ```bash
-Deploying demo-bot to stage dev (us-east-1)
+Deploying demo-bot to stage dev (us-west-2)
 
 ✔ Service deployed to stack demo-bot-dev (112s)
 
