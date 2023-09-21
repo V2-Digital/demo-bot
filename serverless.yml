@@ -9,6 +9,8 @@ provider:
   environment:
     TELEGRAM_TOKEN: FROM_BOT_FATHER
 
+    STRIPE_TOKEN: FROM_BOT_FATHER
+
 functions:
   hello:
     handler: handler.hello
